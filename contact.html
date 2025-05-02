@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="JEAN CARLOS DE LA CRUZ FORTUNA..">
+  <meta name="description" content="Contact [Fortuna Resort ] to book your stay or ask about our Swiss chalet experiences.">
+  <title>Fortuna Resort | Contact</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="OBFUSCATED.css">
+</head>
+<body>
+  <header class="container">
+    <h1><a href="index.html">Fortuna Resort</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Accommodations</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <img src="images/swiss-valley.jpg" width="1280" height="400" alt="Beautiful Swiss valley with mountains and river">
+    </section>
+
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Have questions or want to book your stay at [Fortuna Resort? Fill out the form below and our team will get back to you soon.</p>
+      <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <label>Preferred Contact Method:</label>
+          <input type="radio" id="contact-email" name="contact_method" value="email" checked>
+          <label for="contact-email">Email</label>
+          <input type="radio" id="contact-phone" name="contact_method" value="phone">
+          <label for="contact-phone">Phone</label>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Fortuna Resort. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
